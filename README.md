@@ -34,7 +34,7 @@ Section J - Creating figures <br />
 
 Additional functions required to run the "master" are included in the zip file. These functions include: <br />
 
-anom5.m          - Removes the long-term monthly mean seasonal cycle from a 3D monthly mean dataset based on a user inputs for start and end year. <br />
+anom5.m          - Removes the climatological seasonal cycle from a 3D monthly mean dataset based on a user inputs for start and end year. <br />
 brewermap.m      - A set of useful colormaps for plotting (see also 
                    https://www.mathworks.com/matlabcentral/fileexchange/45208-colorbrewer-attractive-and-distinctive-colormaps) <br />
 cmap_intv.m      - Returns the RGB values for a user-specified _brewermap_ colormap based on a given timeseries of anomalies. <br />
@@ -46,4 +46,4 @@ time_array.m.    - Creates a character array with the timesteps between user spe
 
 Additional data required to run the "master" are also included in the zip file. This data includes: <br />
 
-bta_daily_decorr_timescale_lme.mat -  <br />
+bta_daily_decorr_timescale_lme.mat -  Decorrelation timescale of daily mean bottom temperature anomalies in each LME. Calculated using the script                                                 bhw_glorys_figure_shw_decay_rate.m included in the zip file<br />
