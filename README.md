@@ -35,10 +35,10 @@ The processing steps in the "master" script are implemented in sections. The sec
 
 ## 4. Additional information
 
-Additional functions required to run the "master" are included in the zip file. These functions include:  
+Additional functions required to run the "master" script are included in the zip file. These functions include:  
 
-**anom5.m**           - Removes the climatological seasonal cycle from a 3D monthly mean dataset based on a user inputs for start and end year. 
-**anom_timeseries.m** - Removes the climatological seasonal cycle from a 1D monthly mean dataset based on a user inputs for start and end year. 
+**anom5.m**           - Removes the climatological seasonal cycle from a 3D monthly mean dataset based on a user inputs for start and end year.   
+**anom_timeseries.m** - Removes the climatological seasonal cycle from a 1D monthly mean dataset based on a user inputs for start and end year.   
 **brewermap.m**       - A set of useful colormaps for plotting (see also 
                    https://www.mathworks.com/matlabcentral/fileexchange/45208-colorbrewer-attractive-and-distinctive-colormaps).  
 **cmap_intv.m**       - Returns the RGB values for a user-specified _brewermap_ colormap based on a given timeseries of anomalies.  
