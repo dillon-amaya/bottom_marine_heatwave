@@ -10,7 +10,7 @@ Other processed data (e.g., decorrelation maps, LME masks, etc) are provided in 
 
 ## 2. Download zip file of MATLAB scripts
 
-In this repository is a zip file, which when uncompressed holds a folder with all of the MATLAB scripts/functions needed to reproduce every figure in our analysis. Also included in this folder is a "master" script, which is used to read in and process the GLORYS data before calculating the different BMHW/SMHW statistics. Data is then plotted using a series of functions at the end of the "master" script. User input near the beginning of the "master" script decides whether to process detrended or raw (e.g., not detrended data). User input at the end of the "master script" also determines which figures to plot.
+In this repository is a zip file, which when uncompressed holds a folder with all of the MATLAB scripts/functions needed to reproduce every figure in our analysis. Also included in this folder is a "master" script (glorys_lme_bmhw_smhw_master.m), which is used to read in and process the GLORYS data before calculating the different BMHW/SMHW statistics. Data is then plotted using a series of functions at the end of the "master" script. User input near the beginning of the "master" script decides whether to process detrended or raw (e.g., not detrended data). User input at the end of the "master script" also determines which figures to plot.
 
 ## 3. Edit "master" script and run
 
@@ -51,4 +51,25 @@ Additional data required to run the "master" are also included in the zip file. 
 bta_daily_decorr_timescale_lme.mat  -  Decorrelation timescale of daily mean bottom temperature anomalies in each LME. Calculated using the script                                                bhw_glorys_figure_shw_decay_rate.m included in the zip file.  
 ssta_daily_decorr_timescale_lme.mat -  Same as before, but for sea surface temperature anomalies.  
 lme_lat.mat & lme_lon.mat          -  The lat/lon coordinates of the LME shape files.  
-lme_mask2.mat                       -  Masks outlining the different LMEs on the GLORYS grid.  
+lme_mask2.mat                       -  Masks outlining the different LMEs on the GLORYS grid. 
+
+## 5. Observational comparison to GLORYS bottom temperature
+
+Near-bottom temperature (NBT) measurements from 10 observing stations were collected to assess the fideltiy of GLORYS bottom temperature output. Each of these 10 locations required a certain level of processing to generate timeseries for comparison with GLORYS. For brevity, we include the following processed observational data, along with the corresponding nearest GLORYS grid cells, in the zip folder. For details on the specific processing steps undertaken, see the Supplementary Information of our paper. 
+
+Observed NBT timeseries:  
+Bering Sea (BS-M5) - BS.M5.mon.mean.2005-2018.mat  
+Bering Sea (BS-M8) - BS_mooring/BS.M8.mon.mean.2005-2018.mat  
+Gulf of Alaska (GAK1) - GAK.mon.mean.1998-2018.mat 
+California Current System (Newport Line) - Newport.1997-2019.T3.mat  
+Gulf of Mexico (West End CP) - GOM.mon.mean.2004-2018.mat 
+Southeast US (Walton Smith) - FS_quarterly_cruise/FS.mon.mean.2001-2019.mat  
+Northeast US (Martha's Vineyard) - MVCO.mon.mean.2001-2018.mat  
+Northeast US (Passamaquoddy Bay) - PB.int.mon.mean.1993-2018.mat  
+Scotian (Halfiax Line) - hf.mon.mean.2000-2019.mat  
+Labrador (Station 27) - Newf.mon.mean.1993-2019.mat  
+
+
+
+
+
