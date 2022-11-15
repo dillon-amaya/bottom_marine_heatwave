@@ -6,12 +6,11 @@ Bottom marine heatwve (BMHW) and surface marine heatwave (SMHW) statistics are c
 
 Data required to run the "master" script includes:  
 GLORYS monthly mean bottomT, sst, and mld from 1993-2019. Available at: https://data.marine.copernicus.eu/product/GLOBAL_MULTIYEAR_PHY_001_030/description    
-
 Other processed data (e.g., decorrelation maps, LME masks, etc) are provided in this repository.
 
 ## 2. Download zip file of MATLAB scripts
 
-In this repository is a zip file. When uncompressed, this files holds a folder with all of the MATLAB scripts/functions needed to reproduce every figure in our analysis. Also included in this folder is a "master" script (glorys_lme_bmhw_smhw_master.m), which is used to read in and process the GLORYS data before calculating the different BMHW/SMHW statistics. Data is then plotted using a series of functions at the end of the "master" script. 
+In this repository is a zip file called "bmhw_matlab_scripts.zip". When uncompressed, this files holds a folder with all of the MATLAB scripts/functions needed to reproduce every figure in our analysis. Also included in this folder is a "master" script (glorys_lme_bmhw_smhw_master.m), which is used to read in and process the GLORYS data before calculating the different BMHW/SMHW statistics. Data is then plotted using a series of functions at the end of the "master" script. 
 
 ## 3. Edit "master" script and run
 
