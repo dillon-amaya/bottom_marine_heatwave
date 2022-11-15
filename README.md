@@ -11,7 +11,7 @@ Other processed data (e.g., decorrelation maps, LME masks, etc) are provided in 
 
 ## 2. Download zip file of MATLAB scripts
 
-In this repository is a zip file. When uncompressed, this files holds a folder with all of the MATLAB scripts/functions needed to reproduce every figure in our analysis. Also included in this folder is a "master" script (glorys_lme_bmhw_smhw_master.m), which is used to read in and process the GLORYS data before calculating the different BMHW/SMHW statistics. Data is then plotted using a series of functions at the end of the "master" script. User input near the beginning of the "master" script decides whether to process detrended or raw (e.g., not detrended data). User input at the end of the "master script" also determines which figures to plot.
+In this repository is a zip file. When uncompressed, this files holds a folder with all of the MATLAB scripts/functions needed to reproduce every figure in our analysis. Also included in this folder is a "master" script (glorys_lme_bmhw_smhw_master.m), which is used to read in and process the GLORYS data before calculating the different BMHW/SMHW statistics. Data is then plotted using a series of functions at the end of the "master" script. 
 
 ## 3. Edit "master" script and run
 
