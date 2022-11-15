@@ -4,7 +4,8 @@ Bottom marine heatwve (BMHW) and surface marine heatwave (SMHW) statistics are c
 
 ## 1. Download GLORYS ocean reanalysis data
 
-Data required to run the "master" script includes: GLORYS monthly mean bottomT, sst, and mld from 1993-2019. Available at: https://data.marine.copernicus.eu/product/GLOBAL_MULTIYEAR_PHY_001_030/description
+Data required to run the "master" script includes:  
+GLORYS monthly mean bottomT, sst, and mld from 1993-2019. Available at: https://data.marine.copernicus.eu/product/GLOBAL_MULTIYEAR_PHY_001_030/description    
 
 Other processed data (e.g., decorrelation maps, LME masks, etc) are provided in this repository.
 
