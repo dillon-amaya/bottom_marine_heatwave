@@ -17,7 +17,7 @@ In this repository is a zip file. When uncompressed, this files holds a folder w
 
 Before running the "master" script, there are three areas for user input.  
   1. Change the pathID variables at Lines 4-6 to point to the GLORYS data on whatever system you're working with.  
-  2. Decide whether or not to calculate BMHW/SMHW statistics with data that has had the warming trend removed. Do this by changing the value of the variable "M" at Line 142.  
+  2. Decide whether or not to calculate BMHW/SMHW statistics with data that has had the warming trend removed. Do this by changing the value of the variable "M" at Line 144.  
   3. Pick which of the figures you'd like to plot using the variable "N" in the sections beginning at Line 528.  
 
 The processing steps in the "master" script are implemented in sections. The sections are:
