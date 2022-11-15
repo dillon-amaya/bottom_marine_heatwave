@@ -36,15 +36,16 @@ The processing steps in the "master" script are implemented in sections. The sec
 
 Additional functions required to run the "master" are included in the zip file. These functions include:  
 
-**anom5.m**          - Removes the climatological seasonal cycle from a 3D monthly mean dataset based on a user inputs for start and end year.  
-**brewermap.m**      - A set of useful colormaps for plotting (see also 
+**anom5.m**           - Removes the climatological seasonal cycle from a 3D monthly mean dataset based on a user inputs for start and end year. 
+**anom_timeseries.m** - Removes the climatological seasonal cycle from a 1D monthly mean dataset based on a user inputs for start and end year. 
+**brewermap.m**       - A set of useful colormaps for plotting (see also 
                    https://www.mathworks.com/matlabcentral/fileexchange/45208-colorbrewer-attractive-and-distinctive-colormaps).  
-**cmap_intv.m**      - Returns the RGB values for a user-specified _brewermap_ colormap based on a given timeseries of anomalies.  
-**customcolormap.m** - A set of useful colormaps for plotting (see also https://www.mathworks.com/matlabcentral/fileexchange/69470-custom-colormap).  
-**default_colors.m** - Returns the RGB values of the MATLAB default line colors based on user input.  
-**haxby.m**          - Colormap for displaying bathymetry/topography data (see also https://www.mathworks.com/matlabcentral/fileexchange/25690-haxby-color-map).  
-**snctools**         - Folder containing functions for reading NetCDF files into MATLAB.  
-**time_array.m**    - Creates a character array with the timesteps between user specified years.  
+**cmap_intv.m**       - Returns the RGB values for a user-specified _brewermap_ colormap based on a given timeseries of anomalies.  
+**customcolormap.m**  - A set of useful colormaps for plotting (see also https://www.mathworks.com/matlabcentral/fileexchange/69470-custom-colormap).  
+**default_colors.m**  - Returns the RGB values of the MATLAB default line colors based on user input.  
+**haxby.m**           - Colormap for displaying bathymetry/topography data (see also https://www.mathworks.com/matlabcentral/fileexchange/25690-haxby-color-map).  
+**snctools**          - Folder containing functions for reading NetCDF files into MATLAB.  
+**time_array.m**      - Creates a character array with the timesteps between user specified years.  
 
 Additional data required to run the "master" are also included in the zip file. This data includes:  
 
@@ -55,7 +56,7 @@ Additional data required to run the "master" are also included in the zip file. 
 
 ## 5. Observational comparison to GLORYS bottom temperature
 
-Near-bottom temperature (NBT) measurements from 10 observing stations were collected to assess the fideltiy of GLORYS bottom temperature output. Each of these 10 locations required a certain level of processing to generate timeseries for comparison with GLORYS. For brevity, we include the following processed observational data, along with the corresponding nearest GLORYS grid cells, in the zip folder. For details on the specific processing steps undertaken, see the Supplementary Information of our paper. 
+Near-bottom temperature (NBT) measurements from 10 observing stations were collected to assess the fideltiy of GLORYS bottom temperature output. Each of these 10 locations required a certain level of processing to generate timeseries for comparison with GLORYS. For brevity, we include the following processed observational data, along with the corresponding nearest GLORYS grid cells, in the zip folder. For details on the specific processing steps undertaken and for references for each observed dataset, see the Supplementary Information of the paper. Figures comparing the obserations and GLORYS are created in the "master" script.
 
 **Observed NBT timeseries:**  
 **Bering Sea (BS-M5)** - BS.M5.mon.mean.2005-2018.mat  
@@ -69,7 +70,14 @@ Near-bottom temperature (NBT) measurements from 10 observing stations were colle
 **Scotian (Halfiax Line)** - hf.mon.mean.2000-2019.mat  
 **Labrador (Station 27)** - Newf.mon.mean.1993-2019.mat  
 
-
-
-
-
+**GLORYS NBT timeseries at nearest grid cell:**  
+**Bering Sea (BS-M5)** - glorys.BS.M5.mon.mean.2005-2018.mat  
+**Bering Sea (BS-M8)** - glorys.BS_mooring/BS.M8.mon.mean.2005-2018.mat  
+**Gulf of Alaska (GAK1)** - glorys.GAK.mon.mean.1998-2018.mat 
+**California Current System (Newport Line)** - glorys.Newport.1997-2019.T3.mat  
+**Gulf of Mexico (West End CP)** - glorys.GOM.mon.mean.2004-2018.mat  
+**Southeast US (Walton Smith)** - glorys.FS_quarterly_cruise/FS.mon.mean.2001-2019.mat  
+**Northeast US (Martha's Vineyard)** - glorys.MVCO.mon.mean.2001-2018.mat  
+**Northeast US (Passamaquoddy Bay)** - glorys.PB.int.mon.mean.1993-2018.mat  
+**Scotian (Halfiax Line)** - glorys.hf2.mon.mean.2000-2019.mat  
+**Labrador (Station 27)** - glorys.Newf.mon.mean.1993-2019.mat  
