@@ -1,6 +1,6 @@
-Code used to create forecasts in Amaya et al. _in review_, "Bottom marine heatwaves along the continental shelves of North America"
+Code used for analysis in Amaya et al. _in review_, "Bottom marine heatwaves along the continental shelves of North America"
 
-Bottom marine heatwve (BMHW) and surface marine heatwave (SMHW) statistics are calculated for nine different Large Marine Ecosystems (LMEs) using monthly mean bottom temperature and sea surface temperature output from the GLORYS 1/12˚ ocean reanalysis during the period 1993-2019. Included in this repository are matlab scripts and some data used to generate the results and figures of our study. Steps in the workflow, with associated matlab scripts, are:
+Bottom marine heatwave (BMHW) and surface marine heatwave (SMHW) statistics are calculated for nine different Large Marine Ecosystems (LMEs) using monthly mean bottom temperature and sea surface temperature output from the GLORYS 1/12˚ ocean reanalysis during the period 1993-2019. Included in this repository are matlab scripts and some data used to generate the results and figures of our study. Steps in the workflow, with associated matlab scripts, are:
 
 ## 1. Download GLORYS ocean reanalysis data
 
