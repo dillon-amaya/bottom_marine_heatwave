@@ -1,6 +1,6 @@
 Code used to create forecasts in Amaya et al. _in review_, "Bottom marine heatwaves along the continental shelves of North America"
 
-Bottom marine heatwve (BMHW) and surface marine heatwave SMHW) statistics are calculated using monthly mean bottom temperature and sea surface temperature output from the GLORYS 1/12˚ ocean reanalysis during the period 1993-2019. Included in this repository are matlab scripts and some data used to generate the results and figures of our study. Steps in the workflow, with associated matlab scripts, are:
+Bottom marine heatwve (BMHW) and surface marine heatwave (SMHW) statistics are calculated for nine different Large Marine Ecosystems (LMEs) using monthly mean bottom temperature and sea surface temperature output from the GLORYS 1/12˚ ocean reanalysis during the period 1993-2019. Included in this repository are matlab scripts and some data used to generate the results and figures of our study. Steps in the workflow, with associated matlab scripts, are:
 
 ## 1. Download GLORYS ocean reanalysis data
 
@@ -32,6 +32,8 @@ Section H - Calculating fraction of LME's area that is in BMHW/SMHW conditions a
 Section I - Calculating area-average BWTA/SSTA in grid cells experiencing BMHW conditions as a function of time and LME <br />
 Section J - Creating figures <br />
 
+## 4. Additional information
+
 Additional functions required to run the "master" are included in the zip file. These functions include: <br />
 
 anom5.m          - Removes the climatological seasonal cycle from a 3D monthly mean dataset based on a user inputs for start and end year. <br />
@@ -46,4 +48,7 @@ time_array.m.    - Creates a character array with the timesteps between user spe
 
 Additional data required to run the "master" are also included in the zip file. This data includes: <br />
 
-bta_daily_decorr_timescale_lme.mat -  Decorrelation timescale of daily mean bottom temperature anomalies in each LME. Calculated using the script                                                 bhw_glorys_figure_shw_decay_rate.m included in the zip file<br />
+bta_daily_decorr_timescale_lme.mat  -  Decorrelation timescale of daily mean bottom temperature anomalies in each LME. Calculated using the script                                                bhw_glorys_figure_shw_decay_rate.m included in the zip file. <br />
+ssta_daily_decorr_timescale_lme.mat -  Same as before, but for sea surface temperature anomalies.
+lme_lat.mat & lme_lon.mat.          -  The lat/lon coordinates of the LME shape files
+lme_mask2.mat                       -  Masks outlining the different LMEs on the GLORYS grid
