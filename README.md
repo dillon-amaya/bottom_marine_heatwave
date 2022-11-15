@@ -21,8 +21,8 @@ Before running the "master" script, there are three areas for user input.
 
 The processing steps in the "master" script are implemented in sections. The sections are:
 
-Section A - Reading in coordinate variables and LME masks
-Section B - Reading in GLORYS monthly mean data, calculating monthly anomalies, and organizing by LME
+Section A - Reading in coordinate variables and LME masks <br />
+Section B - Reading in GLORYS monthly mean data, calculating monthly anomalies, and organizing by LME <br />
 Section C - Decide whether or not to removing warming trend
 Section D - Calculate seasonally evolving 90th percentile
 Section E - Calculate average BMHW/SMHW intensity and duration for months above 90th percentile for each grid cell in each LME
