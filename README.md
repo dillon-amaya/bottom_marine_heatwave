@@ -25,7 +25,7 @@ The processing steps in the "master" script are implemented in sections. The sec
 **Section B** - Reading in GLORYS monthly mean data, calculating monthly anomalies, and organizing by LME.  
 **Section C** - Decide whether or not to removing warming trend.  
 **Section D** - Calculate seasonally evolving 90th percentile.  
-**Section E** - Calculate avg. BMHW/SMHW int. and dur. for months above 90th percentile for each grid cell in each LME.  
+**Section E** - Calculate avg. BMHW/SMHW int. and dur. for months > 90th percentile for each grid cell in each LME.  
 **Section F** - Calculating how often SMHW/BMHW events co-occur (i.e., synchrony) in each LME.  
 **Section G** - Calculating area-average BMHW/SMHW int. and dur. across all grid cells in given depth range.  
 **Section H** - Calculating fraction of LME's area that is in BMHW/SMHW conditions as a function of time.    
