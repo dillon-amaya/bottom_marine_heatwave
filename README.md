@@ -56,7 +56,7 @@ Additional data required to run the "master" are also included in the zip file. 
 
 ## 5. Observational comparison to GLORYS bottom temperature
 
-Near-bottom temperature (NBT) measurements from 10 observing stations were collected to assess the fideltiy of GLORYS bottom temperature output. Each of these 10 locations required a certain level of processing to generate timeseries for comparison with GLORYS. We include the following processed observational data, along with the corresponding nearest GLORYS grid cells, in the zip folder. For details on the specific processing steps undertaken and for references for each observed dataset, see the Supplementary Information of the paper. Figures comparing the obserations and GLORYS are created in the "master" script.
+Near-bottom temperature (NBT) measurements from 10 observing stations were collected to assess the fideltiy of GLORYS bottom temperature output. Each of these 10 locations required a certain level of processing to generate timeseries for comparison with GLORYS. We include the following processed observational data, along with the corresponding nearest GLORYS grid cells, in the zip folder. For details on the specific processing steps undertaken and for references for each observed dataset, see the Supplementary Information of the paper. Figures comparing the observations and GLORYS are created in the "master" script.
 
 **Observed NBT timeseries:**  
 **Bering Sea (BS-M5)** - BS.M5.mon.mean.2005-2018.mat  
